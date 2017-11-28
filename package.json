@@ -1,0 +1,23 @@
+{
+  "name": "ld40",
+  "version": "1.0.0",
+  "description": "Ludum Dare 40",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "gamedev",
+    "ludum",
+    "dare",
+    "ld",
+    "ldjam",
+    "ludumdare"
+  ],
+  "author": "Bjorn 'Bjeaurn'",
+  "license": "ISC",
+  "dependencies": {
+    "gine": "git+https://github.com/Bjeaurn/gine2.git"
+  }
+}
