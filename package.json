@@ -4,8 +4,9 @@
   "description": "Ludum Dare 40",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --color --watch --config webpack.conf.js",
-    "build": "webpack --color --config webpack.conf.js ",
+    "start": "webpack --colors --watch",
+    "start:hot": "webpack-dev-server --colors --watch --hot",
+    "build": "webpack --config webpack.config.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,12 +21,19 @@
   "author": "Bjorn 'Bjeaurn'",
   "license": "ISC",
   "dependencies": {
-    "gine": "git+https://github.com/Bjeaurn/gine2.git",
+    "gine": "^2.0.0",
     "webpack": "^3.9.1"
   },
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "fork-ts-checker-webpack-plugin": "^0.2.9",
     "ts-loader": "^3.2.0",
-    "typescript": "^2.6.2"
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.6.2",
+    "webpack-dev-middleware": "^1.12.2",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-hot-middleware": "^2.21.0"
   }
 }

@@ -1,16 +1,14 @@
-import { Gine, Config } from 'gine'
+import { Config, Gine } from "gine"
 
 const cfg: Config = {
+    canvas: <HTMLCanvasElement> document.querySelector("#canvas"),
+    height: 400,
     maxFps: 60,
     tickRate: 110,
-    width: 600,
-    height: 400,
-    usesTiles: true,
     tileSize: 16,
-    canvas: <HTMLCanvasElement>document.querySelector('#canvas')
+    usesTiles: true,
+    width: 600,
 }
 
 const game = new Gine(cfg)
-console.log('test')
-console.log(game)
-console.log(game.canvas)
+game.start()

@@ -5,11 +5,11 @@ Hi there people just joining
 This is more of a test stream, to make sure everything is up and running.
 
 Today:
-[P] Setup boilerplate for new Gine game.
+[P] Double check the stream quality/speed, sound and voice volumes.
 
 --- Here is what I need to get done before LD starts. ---
 ### Stream
-[ ] Double check the stream quality/speed, sound and voice volumes.
+[P] Double check the stream quality/speed, sound and voice volumes.
 [ ] Overlays?
 [ ] More expanded/curated playlist. (Music)
 [ ] See if we can expand the memory for the stream? :-/...
@@ -17,13 +17,13 @@ Today:
 [X] Chat? Notifications?
 
 ### Programming
-[P] Setup boilerplate for new Gine game.
 [ ] Final touches on the Gine library.
+[X] Setup boilerplate for new Gine game.
 [X] Fix Gine library (Bonus: through NPM)
 
 ### Artsyfartsy
 [ ] Install GIMP or some other editor
-[ ] Find and install the Pixel editor (Piskel?)
+[ ] Find and install the Pixel editor (Piskel? Pixelmator)
 [ ] Think about sound? Maybe some Audacity + Ableton Live.
 
 ### Misc
